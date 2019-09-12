@@ -1,10 +1,10 @@
 [
   {
     "name": "arachni",
-    "context": "juiceshop-arachni-quick",
+    "context": "JuiceShop Test Scan",
     "target": {
       "name": "JuiceShop",
-      "location": "http://juice-shop.secure-code-box.svc:3000/",
+      "location": "http://192.168.122.1:3000/",
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 5,
         "ARACHNI_DIR_DEPTH_LIMIT": 1,
