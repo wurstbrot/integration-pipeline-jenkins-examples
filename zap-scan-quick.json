@@ -1,7 +1,7 @@
 [
   {
     "name": "zap",
-    "context": "juiceshop-zap-quick",
+    "context": "JuiceShop Test Scan",
     "target": {
       "name": "JuiceShop",
       "location": "http://juice-shop.secure-code-box.svc:3000/",
