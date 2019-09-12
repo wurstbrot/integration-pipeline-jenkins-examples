@@ -43,8 +43,8 @@ pipeline {
     }
   }
   environment {
-    TARGET_HOST = 'bodgeit.secure-code-box.svc'
-    ENGINE_URL = 'http://engine.secure-code-box.svc:8080'
+    TARGET_HOST = 'Bodgeit Test Scan'
+    ENGINE_URL = 'http://192.168.122.1:8080'
     ENGINE_CREDS = credentials('scb-internal-dev-scanner-jenkins')
   }
 }
