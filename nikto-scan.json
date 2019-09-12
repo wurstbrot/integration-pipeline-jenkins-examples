@@ -1,10 +1,10 @@
 [
   {
     "name": "nikto",
-    "context": "bodgeit-nikto-regular",
+    "context": "Bodgeit Test Scan",
     "target": {
       "name": "BodgeIt",
-      "location": "bodgeit.secure-code-box.svc",
+      "location": "192.168.122.1",
       "attributes": {
         "NIKTO_PORTS": "8080"
       }
