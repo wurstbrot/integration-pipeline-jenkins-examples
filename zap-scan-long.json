@@ -1,12 +1,12 @@
 [
   {
     "name": "zap",
-    "context": "bodgeit-zap-long-regular",
+    "context": "Bodgeit Test Scan",
     "target": {
       "name": "BodgeIt",
-      "location": "http://bodgeit.secure-code-box.svc:8080/bodgeit/",
+      "location": "http://192.168.122.1:8080/bodgeit/",
       "attributes": {
-        "ZAP_BASE_URL": "http://bodgeit.secure-code-box.svc:8080/bodgeit/",
+        "ZAP_BASE_URL": "http://192.168.122.1:8080/bodgeit/",
         "ZAP_SPIDER_MAX_DEPTH": 5
       }
     }
