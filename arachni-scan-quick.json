@@ -1,10 +1,10 @@
 [
   {
     "name": "arachni",
-    "context": "bodgeit-arachni-quick-regular",
+    "context": "Bodgeit Test Scan",
     "target": {
       "name": "BodgeIt",
-      "location": "http://bodgeit.secure-code-box.svc:8080/bodgeit/",
+      "location": "http://192.168.122.1:8080/bodgeit/",
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 5,
         "ARACHNI_DIR_DEPTH_LIMIT": 3,
