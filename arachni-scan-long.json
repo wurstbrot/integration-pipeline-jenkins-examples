@@ -1,7 +1,7 @@
 [
   {
     "name": "arachni",
-    "context": "juiceshop-arachni-in-depth-regular",
+    "context": "JuiceShop Test Scan",
     "target": {
       "name": "JuiceShop",
       "location": "http://juice-shop.secure-code-box.svc:3000/",
