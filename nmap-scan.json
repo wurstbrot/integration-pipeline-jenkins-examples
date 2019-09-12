@@ -1,7 +1,7 @@
 [
   {
     "name": "nmap",
-    "context": "juiceshop-nmap-regular",
+    "context": "JuiceShop Test Scan",
     "target": {
       "name": "JuiceShop",
       "location": "juice-shop.secure-code-box.svc",
