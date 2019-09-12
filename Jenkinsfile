@@ -38,9 +38,9 @@ pipeline {
     }
   }
   environment {
-    TARGET_HOST = 'juice-shop.secure-code-box.svc'
-    TARGET_URL = 'http://juice-shop.secure-code-box.svc:3000'
-    ENGINE_URL = 'http://engine.secure-code-box.svc:8080'
+    TARGET_HOST = '192.168.122.1'
+    TARGET_URL = 'http://192.168.122.1:3000'
+    ENGINE_URL = 'http://192.168.122.1:8080'
     ENGINE_CREDS = credentials('scb-internal-dev-scanner-jenkins')
   }
 }
