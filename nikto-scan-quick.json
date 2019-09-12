@@ -4,7 +4,7 @@
     "context": "juiceshop-nikto-regular",
     "target": {
       "name": "JuiceShop",
-      "location": "juice-shop.secure-code-box.svc",
+      "location": "192.168.122.1",
       "attributes": {
         "NIKTO_PORTS": "3000"
       }
