@@ -7,6 +7,14 @@
       "location": "http://192.168.122.1:8080/bodgeit/",
       "attributes": {
         "ZAP_BASE_URL": "http://192.168.122.1:8080/bodgeit/",
+        "ZAP_SPIDER_MAX_DEPTH": 5,
+        "ZAP_AUTHENTICATION": true,
+        "ZAP_LOGIN_SITE": "http://192.168.122.1:8080/bodgeit/login.jsp",
+        "ZAP_LOGIN_USER": "test@thebodgeitstore.com",
+        "ZAP_LOGIN_PW": "password",
+        "ZAP_PW_FIELD_ID": "password",
+        "ZAP_USERNAME_FIELD_ID": "username",
+        "ZAP_LOGGED_IN_INDICATOR": "You have logged in successfully",
         "ZAP_SPIDER_MAX_DEPTH": 5
       }
     }
