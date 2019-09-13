@@ -10,7 +10,7 @@
         "ZAP_SPIDER_MAX_DEPTH": 5,
         "ZAP_AUTHENTICATION": true,
         "ZAP_LOGIN_SITE": "http://192.168.122.1:8080/bodgeit/login.jsp",
-        "ZAP_LOGIN_USER": "test@thebodgeitstore.com",
+        "ZAP_LOGIN_USER": "test2@thebodgeitstore.com",
         "ZAP_LOGIN_PW": "password",
         "ZAP_PW_FIELD_ID": "password",
         "ZAP_USERNAME_FIELD_ID": "username",
