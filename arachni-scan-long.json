@@ -7,7 +7,7 @@
       "location": "http://192.168.122.1:3000/",
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 30,
-        "ARACHNI_DIR_DEPTH_LIMIT": 10,
+        "ARACHNI_DIR_DEPTH_LIMIT": 50,
         "ARACHNI_PAGE_LIMIT": 100,
         "ARACHNI_EXCLUDE_PATTERNS": [
           ".*socket\\.io.*",
@@ -16,7 +16,8 @@
           ".*/css.*"
         ],
         "ARACHNI_SCAN_METHODS": "*",
-        "ARACHNI_EXTEND_PATH": ["/#/administration"]
+        "ARACHNI_EXTEND_PATH": ["/#/administration"],
+        "ARACHNI_LOGIN_SCRIPT_FILENAME": "login_juice_shop.rb"
       }
     }
   }
