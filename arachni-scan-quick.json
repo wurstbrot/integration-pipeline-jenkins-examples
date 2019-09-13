@@ -7,11 +7,17 @@
       "location": "http://192.168.122.1:8080/bodgeit/",
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 30,
-        "ARACHNI_DIR_DEPTH_LIMIT": 50,
-        "ARACHNI_PAGE_LIMIT": 100,
-        "ARACHNI_PAGE_LIMIT": 20,
-        "ARACHNI_EXCLUDE_PATTERNS": [".*public/images.*", ".*/css.*"],
+        "ARACHNI_DIR_DEPTH_LIMIT": 20,
+        "ARACHNI_PAGE_LIMIT": 50,
+        "ARACHNI_EXCLUDE_PATTERNS": [
+          ".*\\.png",
+          ".*util\\.js",
+          ".*style\\.css"
+        ],
         "ARACHNI_SCAN_METHODS": "*",
+        "ARACHNI_REQUESTS_PER_SECOND": 20,
+        "ARACHNI_POOL_SIZE": 6,
+        "ARACHNI_REQUEST_CONCURRENCY": 20
         "ARACHNI_EXTEND_PATH": ["/admin"]
       }
     }
