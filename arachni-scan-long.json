@@ -16,7 +16,8 @@
           ".*/css.*"
         ],
         "ARACHNI_SCAN_METHODS": "*",
-        "ARACHNI_EXTEND_PATH": ["/#/administration"]
+        "ARACHNI_EXTEND_PATH": ["/#/administration"],
+        "ARACHNI_LOGIN_SCRIPT_FILENAME": "login_juice_shop.rb"
       }
     }
   }
