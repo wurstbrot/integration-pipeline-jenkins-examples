@@ -6,8 +6,9 @@
       "name": "BodgeIt",
       "location": "http://192.168.122.1:8080/bodgeit/",
       "attributes": {
-        "ARACHNI_DOM_DEPTH_LIMIT": 5,
-        "ARACHNI_DIR_DEPTH_LIMIT": 3,
+        "ARACHNI_DOM_DEPTH_LIMIT": 30,
+        "ARACHNI_DIR_DEPTH_LIMIT": 50,
+        "ARACHNI_PAGE_LIMIT": 100,
         "ARACHNI_PAGE_LIMIT": 20,
         "ARACHNI_EXCLUDE_PATTERNS": [".*public/images.*", ".*/css.*"],
         "ARACHNI_SCAN_METHODS": "*",
