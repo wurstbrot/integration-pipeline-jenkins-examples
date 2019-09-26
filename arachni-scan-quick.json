@@ -4,7 +4,7 @@
     "context": "Bodgeit Test Scan",
     "target": {
       "name": "BodgeIt",
-      "location": "http://192.168.122.1:8080/bodgeit/",
+      "location": "http://192.168.122.1:8081/bodgeit/",
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 30,
         "ARACHNI_DIR_DEPTH_LIMIT": 20,
