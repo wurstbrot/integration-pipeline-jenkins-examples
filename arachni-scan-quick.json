@@ -11,11 +11,7 @@
           ".*\\.png",
           ".*util\\.js",
           ".*style\\.css"
-        ],
-        "ARACHNI_REQUESTS_PER_SECOND": 30,
-        "ARACHNI_POOL_SIZE": 6,
-        "ARACHNI_REQUEST_CONCURRENCY": 20,
-        "ARACHNI_EXTEND_PATH": ["/admin"]
+        ]
       }
     }
   }
