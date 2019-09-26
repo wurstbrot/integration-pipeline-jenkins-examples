@@ -6,8 +6,8 @@
       "name": "BodgeIt",
       "location": "http://192.168.122.1:8081/bodgeit/",
       "attributes": {
-        "ARACHNI_DOM_DEPTH_LIMIT": 30,
-        "ARACHNI_DIR_DEPTH_LIMIT": 20,
+        "ARACHNI_DOM_DEPTH_LIMIT": 20,
+        "ARACHNI_DIR_DEPTH_LIMIT": 10,
         "ARACHNI_PAGE_LIMIT": 20,
         "ARACHNI_EXCLUDE_PATTERNS": [
           ".*\\.png",
@@ -15,7 +15,7 @@
           ".*style\\.css"
         ],
         "ARACHNI_SCAN_METHODS": "*",
-        "ARACHNI_REQUESTS_PER_SECOND": 20,
+        "ARACHNI_REQUESTS_PER_SECOND": 30,
         "ARACHNI_POOL_SIZE": 6,
         "ARACHNI_REQUEST_CONCURRENCY": 20,
         "ARACHNI_EXTEND_PATH": ["/admin"]
