@@ -8,7 +8,7 @@
       "attributes": {
         "ARACHNI_DOM_DEPTH_LIMIT": 30,
         "ARACHNI_DIR_DEPTH_LIMIT": 20,
-        "ARACHNI_PAGE_LIMIT": 50,
+        "ARACHNI_PAGE_LIMIT": 20,
         "ARACHNI_EXCLUDE_PATTERNS": [
           ".*\\.png",
           ".*util\\.js",
